@@ -1,0 +1,67 @@
+.social-media{
+    color: aliceblue;
+    background: brown;
+    
+}
+.icon-social-media{
+    float: right;
+    margin-top: -16px;
+}
+body{
+    background-image: url("images/rt.jpg");
+    background-size: cover;
+    background-position: 100%;
+}
+ul{
+    float: right;
+    position: absolute;
+    margin-left: 980px;
+    margin-top: -50px;
+   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 45px 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+   
+ 
+}
+h1{
+    font-size: 18px;
+    font-style: bold;
+    margin-top: 60px;
+    color: #fff;
+}
+hr{
+    width: 100%;
+}
+p{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 90px;
+    padding: 60px;
+}
+h3{
+   text-align: center;
+   margin-right: 140px;
+   color: #fff;
+   font-weight: 760;
+   padding: 10px;
+}
+form{
+
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
