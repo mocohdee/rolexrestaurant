@@ -1,3 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ .main{
+    color: #fff;
+    height: 80vh;
+    padding-top: 4px;     
+    background-image: url("images/rt.jpg");
+    background-size: cover;
+    background-position: 100%;
+}
 .social-media{
     color: aliceblue;
     background: brown;
@@ -5,17 +17,13 @@
 }
 .icon-social-media{
     float: right;
+    color: #fff;
     margin-top: -16px;
-}
-body{
-    background-image: url("images/rt.jpg");
-    background-size: cover;
-    background-position: 100%;
 }
 ul{
     float: right;
     position: absolute;
-    margin-left: 980px;
+    margin-left: 950px;
     margin-top: -50px;
    
 }
@@ -53,7 +61,7 @@ p{
 h3{
    text-align: center;
    margin-right: 140px;
-   color: #fff;
+   color: #848181;
    font-weight: 760;
    padding: 10px;
 }
@@ -63,5 +71,19 @@ form{
     margin-left: 200px;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    margin-bottom: 20px ;
 }
 
+.advert{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+    color: black;
+}
+.second h1{
+    color: black;
+    font-size: 1.5rem;
+}
+.advert >div{
+    width: 300px;
+}
